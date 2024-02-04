@@ -1,0 +1,92 @@
+.left {
+    /*border: 3px solid red;*/
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+  }
+  .left img {
+    width: 140px;
+  }
+  .left div {
+    line-height: 20px;
+    font-size: 18px;
+    text-align: center;
+  }
+  .center {
+    /*border: 3px solid blue;*/
+    display: block;
+    width: 55%;
+    margin: 30px auto;
+  }
+
+  .right {
+    /*border: 3px solid green;*/
+    display: inline-block;
+    position: absolute;
+    right: 35px;
+    top: 45px;
+  }
+
+  .navbar {
+    display: inline-block;
+  }
+  .navbar li {
+    display: inline-block;
+    font-size: 15px;
+  }
+  .navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 35px 25px;
+  }
+  .navbar li a:hover,
+  .navbar li a.active {
+    text-decoration: underline;
+    color: chartreuse;
+  }
+  .btn {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px 10px;
+    background-color: black;
+    color: #fff;
+    padding: 5px 15px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .btn:hover {
+    background-color: rgb(105, 92, 76);
+  }
+  .container {
+    border: 2px solid white;
+    margin: 100px 80px;
+    padding: 50px;
+    width: 35%;
+    border-radius: 20px;
+  }
+  .fgroup input {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: center;
+    display: block;
+    height: 40px;
+    width: 400px;
+    padding: 2px;
+    border: 2px solid black;
+    margin: 10px auto;
+    border-radius: 10px;
+  }
+  .container h1 {
+    text-align: center;
+  }
+  .container button {
+    display: block;
+    width: 75%;
+    margin: 20px auto;
+  }
+  .footer p{
+      text-align: center;
+      font-size: small;
+  }
